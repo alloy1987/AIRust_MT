@@ -1,0 +1,28 @@
+{
+  "name": "airust_mt",
+  "private": true,
+  "version": "0.1.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "@muyajs/core": "workspace:*",
+    "@marktext/file-icons": "workspace:*",
+    "pinia": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vue-tsc": "^2.1.10",
+    "@tauri-apps/cli": "^2"
+  }
+}

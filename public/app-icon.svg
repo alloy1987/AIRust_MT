@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D3748"/>
+      <stop offset="100%" stop-color="#1A202C"/>
+    </linearGradient>
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="110" fill="url(#bgGradient)"/>
+  
+  <g opacity="0.15" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round">
+    <line x1="170" y1="80" x2="130" y2="432" />
+    <line x1="382" y1="80" x2="342" y2="432" />
+    <line x1="80" y1="190" x2="432" y2="190" />
+    <line x1="80" y1="322" x2="432" y2="322" />
+  </g>
+
+  <g filter="url(#textShadow)">
+    <path d="M100 360 V152 L176 260 L252 152 V360" 
+          stroke="white" 
+          stroke-width="45" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+
+    <path d="M290 360 V152 H360 C405 152 405 256 360 256 H290 M350 256 L412 360" 
+          stroke="#38B2AC" 
+          stroke-width="45" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+  </g>
+</svg>
